@@ -1,0 +1,61 @@
+body {
+    font-family: 'Nunito';
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:#ffcbcb;
+}
+.header > * {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* makes images fit flex boxes */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*start of about page*/
+.about {
+    display: flex;
+    flex-direction: row;
+}
+.image {
+    width: 400px;
+    padding-left: 60px;
+}
+.text-container {
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 70px;
+}
+.text-container > * {
+    margin: 5px;
+    padding: 5px;
+}
+.links {
+    display: flex;
+    height: 30px;
+    width: 50px;
+    flex-flow: column wrap;
+}
+.title {
+    font-size: 20px;
+    text-align: center;
+}
+.quote {
+    font-style: italic;
+    font-size: 15px;
+    color:cadetblue;
+    padding-top: 10px;
+    text-align: center;
+}
